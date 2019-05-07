@@ -1,5 +1,7 @@
 package art.View;
 
+import java.awt.event.MouseMotionListener;
+
 import javax.swing.JPanel;
 import art.Controller.ArtController;
 

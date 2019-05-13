@@ -2,14 +2,17 @@ package art.Controller;
 
 import java.io.IOException;
 
-public class ArtController{
-	public void start() {
+import javax.swing.JOptionPane;
+
+public class ArtController
+{
+	public void start()
+	{
 		
 	}
 
-	public void handleErrors(IOException errors)
+	public void handleErrors(Exception error)
 	{
-		// TODO Auto-generated method stub
-		
+		JOptionPane.showMessageDialog(appGUI, "Error received:" + error.getMessage());
 	}
 }
